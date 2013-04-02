@@ -1,0 +1,17 @@
+Nemo Adaptation GTA04:
+    PartSize: 1500
+    FileSystem: ext4
+    Mic2Options: -f fs --compress-disk-image=tar.bz2 --copy-kernel --record-pkgs=name --pkgmgr=zypp
+    Inherit:
+        - ARMv7 hardfp architecture
+        - Nemo Base
+    Repos:
+        - nemo-adaptation-gta04
+    Groups:
+        - Nemo GTA04
+    PostScripts:
+        - meegotouch-n950.post
+        # We don't have so much power with N900 than others so we need to wait a bit longer
+        - mcompositor-app-wait-delay.post
+        - plymouth-lite-ce.post
+
