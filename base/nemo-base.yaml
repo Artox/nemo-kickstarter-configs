@@ -83,11 +83,6 @@ Configurations:
         - nemo-ssu-repos-rnd
         - nemo-ssu-repos-adaptation-common-rnd
         - nemo-ssu-repos-adaptation-rnd
-        - gta04-bootloader
-        - gta04-usbnet-connman
-        - gta04-xorg-config
-        - xorg-x11-drv-omapfb
-        - kernel-gta04-neil-plus
 
   - Name: Nemo i586 Virtual Machine
     FileName: nemo-i586-vm
